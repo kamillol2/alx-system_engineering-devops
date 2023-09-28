@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in [0-14]*; do
+    echo "#!/bin/bash" > "$file"
+done
+
