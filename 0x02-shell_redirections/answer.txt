@@ -1,4 +1,4 @@
-echo "Hello,World"
+echo "Hello, World"
 echo ""(Ôo)'"
 cat /etc/passwd
 cat /etc/passwd /etc/hosts
@@ -9,11 +9,11 @@ echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
 ls -la > ls_cwd_content
 tail -n 1 iacta >> iacta
 find . -type f -name "*.js" -exec rm {} \;
-ls -c | head -n 10
+ls -t | head -n 10
 uniq | sort 
-cat list | sort | uniq -u
 cat /etc/passwd | grep "root"
-cat /etc/passwd | grep "bin" | wc -l 
+cat /etc/passwd | grep "bin" | wc -l
+ 
 cat /etc/passwd | grep -v "bin"
 grep "[a-zA-Z]" /etc/ssh/sshd_config
 tr 'Ac' 'Ze'
