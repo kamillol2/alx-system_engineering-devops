@@ -1,0 +1,30 @@
+#!/bin/bash
+
+for file in [0-9]*; do
+  if [ -f "$file" ]; then
+    echo "#!/bin/bash" > "$file"
+  fi
+done
+
+number_line=1
+for file in [0-9]*; do
+    sed -n "${number_line}p" answer.txt >> "$file"
+    number_line=$((number_line+1))
+done
+
+
+
+
+
+
+
+
+
+#my script and above is chat-gpt update
+
+#number_line= 1
+#for file in [0-9]*; do
+	#sed -n '$number_linep' answer.txt >> "$file"
+	#$number_line = $number_line+1
+#done 
+
