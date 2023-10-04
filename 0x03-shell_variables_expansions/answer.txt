@@ -1,0 +1,42 @@
+alias ls="rm *"
+echo "hello $USER"
+export PATH=$PATH:/action
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
+printenv
+set
+BETTY="Holberton"
+export HOLBERTON="Betty"
+echo $(($TRUEKNOWLEDGE + 128))
+echo $(($POWER / $DIVIDE))
+echo $(($BREATH**$LOVE))
+echo $((2#$BINARY))
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
+printf "%.2f" $NUM | sort
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
